@@ -1,0 +1,108 @@
+/* Account -page*/
+.account-page {
+  padding: 50px 0;
+  /*background: radial-gradient(#fff,#8b8383);*/
+  /*background-image: url('D:/Project/login page.png');*/
+  /*background-repeat: no-repeat;
+    background-size: cover;*/
+}
+.form-container {
+  background: rgb(255, 255, 255);
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px 0px rgba(255, 2, 2, 0.1);
+  right: 0px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+.form-btn {
+  display: inline-block;
+}
+.form-container form {
+  max-width: 300px;
+  padding: 0px 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+form.btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+form.btn:focus {
+  outline: none;
+}
+#LoginForm {
+  left: -300px;
+}
+#Regform {
+  left: 0px;
+}
+form a {
+  font-size: 12px;
+}
+/* .btn {
+  width: 70%;
+  background-color: #ff523b;
+  border: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100px;
+  font-weight: 80px;
+} */
+.btn {
+  margin: 20px;
+}
+#Indicator {
+  width: 70px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(55px);
+  transition: transform 1s;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(255, 253, 253);
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav > ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+}
+nav > ul > li > a {
+  color: #555;
+  font-weight: bold;
+}
